@@ -1,0 +1,9 @@
+package com.springboot.web.controller;
+
+public class DoctorController {
+
+	public DoctorController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

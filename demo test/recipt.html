@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Receipt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .receipt {
+            border: 2px solid #000;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .patient-info, .visit-info, .charges {
+            margin-bottom: 20px;
+        }
+
+        .charges table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .charges th, .charges td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .total {
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="receipt">
+        <div class="header">Medical Receipt</div>
+
+        <div class="patient-info">
+            <h3>Patient Information</h3>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Date of Birth:</strong> January 1, 1980</p>
+            <p><strong>Address:</strong> 123 Main St, Cityville</p>
+        </div>
+
+        <div class="visit-info">
+            <h3>Visit Information</h3>
+            <p><strong>Date:</strong> January 24, 2024</p>
+            <p><strong>Doctor:</strong> Dr. Smith</p>
+        </div>
+
+        <div class="charges">
+            <h3>Charges</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Consultation Fee</td>
+                        <td>$100.00</td>
+                    </tr>
+                    <tr>
+                        <td>Lab Test</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+
+            <div class="total">
+                <p><strong>Total Amount:</strong> $150.00</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Thank you for choosing our medical services. Please make the payment within 30 days.</p>
+        </div>
+    </div>
+
+</body>
+</html>
