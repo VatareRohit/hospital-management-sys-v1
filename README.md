@@ -2,7 +2,8 @@
 <br>
 This is Hospital Managenment System Project.
 <br>
-java, html, css, javascript are used.
+This project having ADMIN, DOCTOR and RECEPTION roles.
+
 <br><hr>
 Author- Rohit Vatare
 Contact No. 9075917141
