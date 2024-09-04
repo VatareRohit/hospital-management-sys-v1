@@ -3,7 +3,7 @@
 This is Hospital Managenment System Project.
 <br>
 The Hospital Management System is a comprehensive software solution designed to streamline and automate various processes within a healthcare facility. This system supports three primary roles: ADMIN, DOCTOR, and RECEPTION, each with specific functionalities to enhance the efficiency of hospital operations.
-<h3>ADMIN Role:
+<h3>ADMIN Role:</h3>
     The ADMIN has full control over the system, with the ability to manage user accounts, including Doctors and Receptionists. Oversees patient records, billing, and financial reports.
 Ensures data security, compliance with healthcare regulations, and generates comprehensive reports for decision-making.
 
